@@ -1,0 +1,36 @@
+<?php ?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Projects</title>
+<link href="../Junior app/HTML/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="My Projects stylesheet.css" rel="stylesheet" media="screen">
+<link href="custom-scrollbar-plugin/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="IFS-logo small.jpg" />
+</head>
+
+<body class="img-responsive" >
+<div class="container">
+  <div class="inner_container">
+    <h1 class="text-center">My Projects</h1>
+    <div class="data">
+      <div class="projects">
+      	<h2 class="project_block" >Current projects</h2><a href="file:///E:/Documents/Documents/IFS/IFS%20Project%20Hub/Project%20details.html"><img class="project_block" src="My Projects-assets/Intern project.png"></a><img class="project_block" src="My Projects-assets/Junior app.png"><img class="project_block" src="My Projects-assets/IFS website.png">
+        <h2 class="project_block" >Previous projects</h2>
+        <img class="project_block" src="My Projects-assets/Intern project.png"><img class="project_block" src="My Projects-assets/Junior app.png"><img class="project_block" src="My Projects-assets/IFS website.png"><img class="project_block" src="My Projects-assets/Intern project.png"><img class="project_block" src="My Projects-assets/Junior app.png"><img class="project_block" src="My Projects-assets/IFS website.png"><img class="project_block" src="My Projects-assets/Intern project.png"><img class="project_block" src="My Projects-assets/Junior app.png"><img class="project_block" src="My Projects-assets/IFS website.png">
+      </div>
+    </div>
+  </div>
+</div>
+<script src="../Monitoring/html/jquery-1.6.1.min.js"></script> 
+<script src="custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js"></script> 
+<script>
+    (function($){
+        $(window).load(function(){
+            $(".projects").mCustomScrollbar();
+        });
+    })(jQuery);
+</script>
+</body>
+</html>
